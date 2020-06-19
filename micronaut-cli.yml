@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: com.example
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [app-name, data, data-jpa, docker, flyway, gradle, h2, http-client, jdbc-hikari, junit, kotlin, kotlin-application, kotlin-extension-functions, logback, netty-server, properties, readme, shade]
