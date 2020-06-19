@@ -1,8 +1,11 @@
 micronaut:
   application:
     name: micronautDataKotlin
+    instance:
+      id: ${random.shortuuid}
   server:
     port: 8080
+
 
 datasources:
   default:

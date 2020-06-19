@@ -6,13 +6,12 @@ import io.micronaut.http.annotation.Body
 import io.micronaut.http.annotation.Controller
 import io.micronaut.http.annotation.Get
 import io.micronaut.http.annotation.Post
+import io.micronaut.data.model.Pageable
 import java.util.*
 import javax.inject.Inject
 
 @Controller("/api")
-class UserController {
-    @Inject
-    lateinit var repository: UserRepository
+class UserController(private val repository: UserRepository){
 
     @Post("/")
     fun saveUser(@Body user: User): User {
