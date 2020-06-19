@@ -1,6 +1,5 @@
 package com.example.domain
 
-import io.micronaut.data.annotation.AutoPopulated
 import java.util.*
 import javax.persistence.*
 
